@@ -1,2 +1,2 @@
-# Jim-test
-this is just a test repository to try out GitHub
+This is a test.
+lorom ipsum
