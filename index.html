@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NUS Money Exercise 2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <img src="alliance1.gif">
+        <div class="row">
+        <div id="colleft" class="column">
+        <form action="forum.cfm" method="post">
+            <fieldset>
+                <legend>My Profile</legend>
+                <label for="givenName">Given name</label>
+                <input required type="text" name="givenName" id="givenName" autocomplete="off" autofocus />
+                <label for="lastname">Last name</label>
+                <input required type="text" name="lastname" id="lastname" autocomplete="off" autofocus />
+                <br/> 
+               
+               
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <fieldset>
+                <legend>House Preferences</legend>
+                <label for="bed">No. of Bedroom?</label>
+                <input name="bed" id="bed" type="range" min="1" max="3" step="1" value="1" />
+                <output name="bed" id="bed">3</output>
+                <br/>
+                <label for="budget">Budget allocated $ </label>
+                <input required type="text" name="budget" id="budet" autocomplete="off" />
+
+                <label for="call">Select Location</label>
+                <input list="callingoptions" id="call" name="call" pattern="Bugis|[0-9]*" oninput="validateCallingOptions();" />
+                <datalist id="callingoptions">
+                    <option value="Bugis"></option>
+                    <option value="Tanjong Pagar"></option>
+                    <option value="Marina Bay"></option>
+                </datalist>	
+                <br>
+                <br> 
+                <button class = "btn btn-info" onclick="postData()">U : Update my Profile!</button>  
+                <br>
+               <button class = "btn btn-info" onclick="getFromServer()">R : Show All Profiles!</button>
+               <br/>      
+                <button class = "btn btn-info" onclick="updateData()">U : Update my Profile!</button>  
+                <br>
+                <button class = "btn btn-info" onclick="deleteData()">D : I'm Out </button>  
+            </fieldset>
+            <br><br>
+            <input type="submit" value="Find me a Match!" />
+        </form>
+    </div>
+    <div id="colright" class="column"> Output</div>
+</div>
+    </body>
+</html>
