@@ -3,14 +3,14 @@
     <head>
         <title>NUS Money Exercise 2</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <script src="getdata1.js"></script>
     </head>
     <body>
         <img src="alliance1.gif">
         <div class="row">
         <div id="colleft" class="column">
-        <form action="forum.cfm" method="post">
+        <form type = "submit" id="myForm" >
             <fieldset>
                 <legend>My Profile</legend>
                 <label for="givenName">Given name</label>
@@ -18,44 +18,43 @@
                 <label for="lastname">Last name</label>
                 <input required type="text" name="lastname" id="lastname" autocomplete="off" autofocus />
                 <br/> 
-                <br> 
-                <input type="submit" value="C: I am in !" />
-          
-                <br>
-               <input type="submit" value="R : Show All Profiles!" />
-                <br/>
-                       
-                <input type="submit" value="U : Update my Profile!" />
-           
-                <br>
-                <input type="submit" value="D : I'm Out !" />
-               
-               
+
             </fieldset>
-            <br>
-            <br>
+           
             <br>
             <fieldset>
                 <legend>House Preferences</legend>
-                <label for="bed">No. of Bedroom?</label>
-                <input name="bed" id="bed" type="range" min="1" max="3" step="1" value="1" />
-                <output name="bed" id="bed">3</output>
+                <label for="nob">No. of Bedroom?</label>
+                <input name="nob" id="nob" type="range" min="1" max="3" step="1" value="1" />
+                <output name="nob" id="nob">3</output>
                 <br/>
                 <label for="budget">Budget allocated $ </label>
                 <input required type="text" name="budget" id="budet" autocomplete="off" />
 
-                <label for="call">Select Location</label>
-                <input list="callingoptions" id="call" name="call" pattern="Bugis|[0-9]*" oninput="validateCallingOptions();" />
-                <datalist id="callingoptions">
+                <label for="location">Preferred Location</label>
+                <input list="locationoptions" id="location" name="location" />
+                <datalist id="locationoptions">
                     <option value="Bugis"></option>
                     <option value="Tanjong Pagar"></option>
                     <option value="Marina Bay"></option>
-                </datalist>			
+                </datalist>	
+                <br>
+                <br> 
+                <br>
+                <br> 
+                <button class = "btn" onsubmit="postData()">C : Create my Profile!</button>           
+               <button type="submit" formmethod = "GET" class = "btn" onsubmit="getFromServer()">R : Show All Profiles!</button>
+                <button type="submit" formmethod = "PUT" class = "btn" onsubmit="updateData()">U : Update my Profile!</button>    
+                <button type="submit" formmethod = "DELETE" class = "btn" onsubmit="deleteData()">D : I'm Out </button>  
+                </form>
             </fieldset>
-            <input type="submit" value="Find me a Match!" />
+            <button type="submit" formmethod = "GET" id = "findMatch" class = "btn1" onclick="findMatch()">Find me a Match! </button>  
+           
+         
         </form>
-    </div>
+</div>
     <div id="colright" class="column"> Output</div>
 </div>
+<script src="getdata1.js"></script>
     </body>
 </html>
