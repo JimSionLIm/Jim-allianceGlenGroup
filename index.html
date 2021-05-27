@@ -14,9 +14,9 @@
             <fieldset>
                 <legend>My Profile</legend>
                 <label for="givenName">Given name</label>
-                <input required type="text" name="givenName" id="givenName" autocomplete="off" autofocus />
+                <input  type="text" name="givenName" id="givenName" autocomplete="off" autofocus />
                 <label for="lastname">Last name</label>
-                <input required type="text" name="lastname" id="lastname" autocomplete="off" autofocus />
+                <input type="text" name="lastname" id="lastname" autocomplete="off" autofocus />
                 <br/> 
 
             </fieldset>
@@ -29,7 +29,7 @@
                 <output name="nob" id="nob">3</output>
                 <br/>
                 <label for="budget">Budget allocated $ </label>
-                <input required type="text" name="budget" id="budet" autocomplete="off" />
+                <input  type="text" name="budget" id="budet" autocomplete="off" />
 
                 <label for="location">Preferred Location</label>
                 <input list="locationoptions" id="location" name="location" />
@@ -48,12 +48,11 @@
                 </form>  
                 <br>
                 <label for="MemberID">ID No.: </label>
-                <input required type="MemberID" name="MemberID" id="MemberID" autocomplete="off" />
-                <button type="submit" formmethod = "DELETE" class = "btn" onsubmit="deleteData()">D : I'm Out </button>  
+                <input type="MemberID" name="MemberID" id="MemberID" autocomplete="off" />
+                <button type="submit" formmethod = "DELETE" class = "btn"  onsubmit="deleteData()">D : I'm Out </button>  
             </fieldset>
             <button type="submit" formmethod = "GET" id = "findMatch" class = "btn1" onclick="findMatch()">Find me a Match! </button>  
-           
-         
+ 
         </form>
 </div>
     <div id="colright" class="column"> Output</div>
