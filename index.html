@@ -44,9 +44,12 @@
                 <br> 
                 <button class = "btn" onsubmit="postData()">C : Create my Profile!</button>           
                <button type="submit" formmethod = "GET" class = "btn" onsubmit="getFromServer()">R : Show All Profiles!</button>
-                <button type="submit" formmethod = "PUT" class = "btn" onsubmit="updateData()">U : Update my Profile!</button>    
+                <button type="submit" formmethod = "PUT" class = "btn" onsubmit="updateData()">U : Update my Profile!</button>
+                </form>  
+                <br>
+                <label for="MemberID">ID No.: </label>
+                <input required type="MemberID" name="MemberID" id="MemberID" autocomplete="off" />
                 <button type="submit" formmethod = "DELETE" class = "btn" onsubmit="deleteData()">D : I'm Out </button>  
-                </form>
             </fieldset>
             <button type="submit" formmethod = "GET" id = "findMatch" class = "btn1" onclick="findMatch()">Find me a Match! </button>  
            
