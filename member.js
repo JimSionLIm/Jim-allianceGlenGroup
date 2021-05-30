@@ -64,7 +64,7 @@ router.put("/member/update", (request, response) => {
       ,NoOfBedrooms = '${request.body.NoOfBedrooms}'
       ,Budget = '${request.body.Budget}'
       ,Loc = '${request.body.Loc}'
-      where MemberID = '${request.query.id}'`,
+      where MemberID = '${request.query.memberid}'`,
       (errors, results) => {
         if (errors) {
           response.status(500).send(errors);
