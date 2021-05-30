@@ -12,13 +12,15 @@
   <body>
       <div>
         <H1> GROUP 5 ALLIANCE  </H1>
-        <h2> Test both in postman and html</h2>
+      
 
       </div>
       <div>
         <table>
-          
+          <button class = "btn btn-info" onclick="getFromServer()">View All</button>  
           <tr>
+            <h2> Please enter your details to join as an Alliance Member</h2>
+            <h3>Leave MemberID blank for joining members</h3>
             <td>Given Name: </td><td><input type="text" name="GivenName" id ="GivenName"></td>
           </tr>
           <tr>
@@ -31,19 +33,21 @@
             <td>Budget</td> <td><input type="text" name="Budget" id="Budget"></td>
           </tr>
           <tr>
-            <td>Location</td><td><input type="text" name="Loc" id="Loc"></td>
+            <td>Location</td><td><input type="text" name="Loc" id="Loc"></td><br>
           </tr>
+
           <tr>
             <td>Member Id:</td><td><input type="text" name="MemberID" id="MemberID"></td>
           </tr>
         </table> 
       </div>
-      
-      
-      <button class = "btn btn-info" onclick="getFromServer()">View All</button>  
       <button class = "btn btn-info" onclick="postData()">Create</button>  
+      <button class = "btn btn-info" onclick="updateData()">Update</button>
+      
+
+
       <button class = "btn btn-info" onclick="deleteData()">Delete</button>  
-      <button class = "btn btn-info" onclick="updateData()">Update</button></td>
+
       
       <div class="mypanel">
              
