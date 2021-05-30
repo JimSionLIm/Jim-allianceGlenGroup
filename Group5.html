@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Read Data from Server</title>
+    <script src="getdata1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- My sample pages -->
+  </head>
+  <body>
+      <div>
+        <H1> GROUP 5 ALLIANCE  </H1>
+        <h2> Test both in postman and html</h2>
+
+      </div>
+      <div>
+        <table>
+          
+          <tr>
+            <td>Given Name: </td><td><input type="text" name="GivenName" id ="GivenName"></td>
+          </tr>
+          <tr>
+            <td>Last Name: </td><td><input type="text" name="LastName" id="LastName"></td>
+          </tr>
+          <tr>
+            <td>Number of Bedrooms</td><td><input type="text" name="NoOfBedrooms" id="NoOfBedrooms"></td>
+          </tr>
+          <tr>
+            <td>Budget</td> <td><input type="text" name="Budget" id="Budget"></td>
+          </tr>
+          <tr>
+            <td>Location</td><td><input type="text" name="Loc" id="Loc"></td>
+          </tr>
+          <tr>
+            <td>Member Id:</td><td><input type="text" name="MemberID" id="MemberID"></td>
+          </tr>
+        </table> 
+      </div>
+      
+      
+      <button class = "btn btn-info" onclick="getFromServer()">View All</button>  
+      <button class = "btn btn-info" onclick="postData()">Create</button>  
+      <button class = "btn btn-info" onclick="deleteData()">Delete</button>  
+      <button class = "btn btn-info" onclick="updateData()">Update</button></td>
+      
+      <div class="mypanel">
+             
+      </div>
+  </body>
