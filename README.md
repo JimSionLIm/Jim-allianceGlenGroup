@@ -8,8 +8,8 @@
 
 
 <h1> Next Steps </h1>
-1. Learn how "Actions" work. 
-2. Create a Workflow.
-3. Learn Workflow syntax for GitHub Actions.
-4. Learn yaml
-5. Learn how Git technology and commands first!
+#1. Learn how "Actions" work. 
+#2. Create a Workflow.
+#3. Learn Workflow syntax for GitHub Actions.
+#4. Learn yaml
+#5. Learn how Git technology and commands first!
