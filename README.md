@@ -1,4 +1,4 @@
-<h1>2 Ways to enabling Telegram Auto Messaging on Commit events</h1>
+<h1>2 Ways to enabling Telegram Auto Messaging on events</h1>
 
 1. It's surprising that i did not have to do anything at all from GitHub "Actions".
 2. The setup was done everything from the IFTTT and Telegram API. (mostly IFTTT)
