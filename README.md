@@ -1,7 +1,7 @@
 <h1>2 Ways to enabling Telegram Auto Messaging on events</h1>
 
 <h2> Ymal </h2>
-#1. Github "Actions". technology and commands !
+#1. Github "Actions". technology and commands ! <br>
 #2. Create a Workflow.
 #3. Workflow syntax for GitHub Actions.
 #4. yaml syntax.
