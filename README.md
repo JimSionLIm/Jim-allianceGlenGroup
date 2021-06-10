@@ -3,9 +3,7 @@
 <h2> Ymal </h2>
 1. Github "Actions". git technology and commands<br>
 2. Create a Workflow.<br>
-3. Workflow syntax for GitHub Actions.<br>
-4. yaml syntax.<br>
-5. Test Tools and Environment : Mocha, Jasmine for testing Javascript<br>
+3. Test Tools and Environment : Mocha, Jasmine for testing Javascript<br>
 
 ---
 <h2>IFttt</h2>
