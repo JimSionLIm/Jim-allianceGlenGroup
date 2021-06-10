@@ -1,4 +1,4 @@
-<h1>2 Ways to enabling Telegram Auto Messaging on events</h1>
+<h1>Telegram Auto Messaging on events</h1>
 
 <h2> Ymal </h2>
 1. Github "Actions". technology and commands ! <br>
