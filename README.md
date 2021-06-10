@@ -1,7 +1,7 @@
 <h1>Telegram Auto Messaging on events</h1>
 
 <h2> Ymal </h2>
-1. Github "Actions". technology and commands ! <br>
+1. Github "Actions". git technology and commands<br>
 2. Create a Workflow.<br>
 3. Workflow syntax for GitHub Actions.<br>
 4. yaml syntax.<br>
