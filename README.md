@@ -2,8 +2,7 @@
 
 <h2> Ymal </h2>
 1. Github "Actions". git technology and commands<br>
-2.Test Tools and Environment : Mocha, Jasmine for testing Javascript<br>
-3. Create a Workflow.
+2. Create a Workflow.
 
 ---
 <h2>IFttt</h2>
@@ -13,4 +12,5 @@
 4. And within Telegram, you must first install desktop into Windows. And then create a bot + channel<br>
 5. Then add the IFTTT telegram bot into your telegram channel, basically the bot-channel in which you wish to receive the message.
 
-
+Next Steps : 
+1. Developing Test Tools and Environment :
