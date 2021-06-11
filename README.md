@@ -4,8 +4,8 @@
 
 <h2> Ymal </h2>
 1. Github "Actions". git technology and commands<br>
-2. Create a Workflow. Webhooks.
-3. secrets
+2. Create a Workflow.  Webhooks. <br>
+3. IFTTT ".secrets"
 ---
 <h2>IFttt</h2>
 1. The setup was done everything from the IFTTT and Telegram API. (mostly IFTTT)<br>
