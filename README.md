@@ -4,7 +4,7 @@
 
 <h2> Ymal </h2>
 1. Github "Actions". git technology and commands<br>
-2. Create a Workflow.
+2. Create a Workflow. Webhooks.
 
 ---
 <h2>IFttt</h2>
