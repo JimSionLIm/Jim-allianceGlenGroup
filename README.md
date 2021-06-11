@@ -1,6 +1,6 @@
 <h1> MY CI/CID LEARNING JOURNEY</H1>
 
-<h1>Telegram Auto Messaging on events</h1>
+<h3>Telegram Auto Messaging on events</h3>
 
 <h2> Ymal </h2>
 1. Github "Actions". git technology and commands<br>
