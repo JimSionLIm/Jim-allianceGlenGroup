@@ -13,4 +13,4 @@
 5. Then add the IFTTT telegram bot into your telegram channel, basically the bot-channel in which you wish to receive the message.
 
 <h2>Next Steps : </h2>
-1. Developing Test Tools and Environment :
+1. Using Test Tools and Environment :
